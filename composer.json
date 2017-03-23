@@ -1,0 +1,20 @@
+{
+    "name": "Online_Order_system",
+    "description": "Online_Order_System Composer project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arod Chen",
+            "email": "arod@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "require": {
+    "twig/twig": "~1.0",
+    "corneltek/pux": "~1.5"
+  }
+}

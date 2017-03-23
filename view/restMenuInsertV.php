@@ -26,13 +26,14 @@ include ("menu_js.js");
             <td><input type="text" name="rest_tel"></td>
             <td><select name="restkind">
                     <?php
-                    $num=count($rest_kind_echo);
-                    for($k=0;$k<=$num-1;$k++) {
-                        foreach ($rest_kind_echo[$k] as $i){ ?>
-                    <option value="<?php echo $i; ?>"><?php echo $i; ?></option>
-                            <?php
-                        }
-                    }?>
+                    {{ aaa; }}
+//                    $num=count($rest_kind_echo);
+//                    for($k=0;$k<=$num-1;$k++) {
+//                        foreach ($rest_kind_echo[$k] as $i){ ?>
+<!--                    <option value="--><?php //echo $i; ?><!--">--><?php //echo $i; ?><!--</option>-->
+<!--                            --><?php
+//                        }
+//                    }?>
                 </select></td>
             <td><input type="file" name="rest_picture" size="30"></td>
         </tr>
